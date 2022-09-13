@@ -145,12 +145,21 @@ ul {
   color: var(--accent-clr);
 }
 section.hero {
-  background-color: var(--secondary-bgd-clr);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 .container-hero {
+}
+.hero-overlay {
+  width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/about_the_studio/hero-bckg.jpg'), url(../images/about_the_studio/hero-bckg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-title {
   color: var(--secondary-accent-clr);
@@ -398,6 +407,7 @@ section.hero {
   padding-bottom: 60px;
 }
 .footer .logo {
+  display: block;
   color: var(--secondary-accent-clr);
   margin-bottom: 20px;
   font-family: var(--secondary-font);
