@@ -34,10 +34,20 @@
         </nav>
         <ul class="contacts-list list">
           <li class="contacts-item">
-            <a href="mailto:info@devstudio.com" class="contact link email">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="contact link email" rel="noopener noreferrer"
+              ><svg class="contacts-icon" width="16" height="12">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
           <li class="contacts-item">
-            <a href="tel:+380961111111" class="contact link tel">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="contact link tel" rel="noopener noreferrer"
+              ><svg class="contacts-icon" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -60,7 +70,7 @@
           </ul>
           <ul class="cards-list list">
             <li class="card-item">
-              <a href="#" class="link">
+              <a href="#" class="card-link link">
                 <!--img 1-->
                 <img
                   src="./images/portfolio/portfolio1.jpg"
@@ -80,7 +90,7 @@
               </a>
             </li>
             <li class="card-item">
-              <a href="#" class="link">
+              <a href="#" class="card-link link">
                 <!--img 2-->
                 <img
                   src="./images/portfolio/portfolio2.jpg"
@@ -102,7 +112,7 @@
               </a>
             </li>
             <li class="card-item">
-              <a href="#" class="link">
+              <a href="#" class="card-link link">
                 <!--img 3-->
                 <img
                   src="./images/portfolio/portfolio3.jpg"
@@ -122,7 +132,7 @@
               </a>
             </li>
             <li class="card-item">
-              <a href="#" class="link">
+              <a href="#" class="card-link link">
                 <!--img 4-->
                 <img
                   src="./images/portfolio/portfolio4.jpg"
@@ -142,7 +152,7 @@
               </a>
             </li>
             <li class="card-item">
-              <a href="#" class="link">
+              <a href="#" class="card-link link">
                 <!--img 5-->
                 <img
                   src="./images/portfolio/portfolio5.jpg"
@@ -162,7 +172,7 @@
               </a>
             </li>
             <li class="card-item">
-              <a href="#" class="link">
+              <a href="#" class="card-link link">
                 <!--img 6-->
                 <img
                   src="./images/portfolio/portfolio6.jpg"
@@ -182,7 +192,7 @@
               </a>
             </li>
             <li class="card-item">
-              <a href="#" class="link">
+              <a href="#" class="card-link link">
                 <!--img 7-->
                 <img
                   src="./images/portfolio/portfolio7.jpg"
@@ -202,7 +212,7 @@
               </a>
             </li>
             <li class="card-item">
-              <a href="#" class="link">
+              <a href="#" class="card-link link">
                 <!--img 8-->
                 <img
                   src="./images/portfolio/portfolio8.jpg"
@@ -223,7 +233,7 @@
               </a>
             </li>
             <li class="card-item">
-              <a href="#" class="link">
+              <a href="#" class="card-link link">
                 <!--img 9-->
                 <img
                   src="./images/portfolio/portfolio9.jpg"
@@ -248,20 +258,79 @@
     </main>
     <footer class="footer">
       <div class="container-footer container">
-        <a href="./index.html" lang="en" class="logo"><span>Web</span>Studio</a>
-        <address class="address">
-          <ul class="address-list list">
-            <li class="address-item">м. Київ, пр-т Лесі Українки, 26</li>
-            <li class="address-item">
-              <a href="mailto:info@devstudio.com" class="address-contact link"
-                >info@devstudio.com</a
+        <div class="footer-adress">
+          <a href="./index.html" lang="en" class="logo"><span>Web</span>Studio</a>
+          <address class="address">
+            <ul class="address-list list">
+              <li class="address-item">м. Київ, пр-т Лесі Українки, 26</li>
+              <li class="address-item">
+                <a href="mailto:info@devstudio.com" class="address-contact link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a href="tel:+380961111111" class="address-contact link">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-socials">
+          <strong class="join">приєднуйтесь</strong>
+          <ul class="socials list">
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
               >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-item">
-              <a href="tel:+380961111111" class="address-contact link">+38 096 111 11 11</a>
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a
+                class="socials-link link"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Linkedin"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
