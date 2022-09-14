@@ -14,6 +14,7 @@
   --secondary-bgd-clr: #2f303a;
   --accent-bgd-clr: #f5f4fa;
   --header-boarder-clr: #ececec;
+  --icons-clr: #AFB1B8
   /* Font */
   --main-font: Roboto;
   --secondary-font: Raleway;
@@ -303,9 +304,9 @@ section.hero {
   margin-right: 0;
 }
 .team-img {
+  margin-bottom: 30px;
 }
 .team-card-discr {
-  padding: 30px 0;
   text-align: center;
 }
 .team-item-title {
@@ -313,8 +314,39 @@ section.hero {
 }
 .team-item-txt {
   color: var(--secondary-clr);
+  margin-bottom: 16px;
 }
+/*Socials icons*/
 
+.socials.list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.socials-item {
+  margin: 0;
+    }
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--secondary-accent-clr);
+  border-radius: 50%;
+  color: var(--icons-clr);
+}
+.socials-link:hover{
+background-color: var(--accent-clr);
+}
+.socials-link:hover .socials-icon{
+  fill: var(--secondary-accent-clr);
+}
+.socials-icon{
+  fill: currentColor;
+  
+}
 /* Portfolio */
 .portfolio {
   background-color: var(--secondary-accent-clr);
