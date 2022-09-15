@@ -507,6 +507,9 @@ section.hero {
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
+
+/*Footer*/
+
 .footer {
   background-color: var(--secondary-bgd-clr);
   padding-top: 60px;
